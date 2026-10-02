@@ -1,0 +1,38 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="250" fill="#1C1F26" rx="16"/>
+
+  <!-- Green Circle Outline -->
+  <circle cx="140" cy="125" r="85" fill="none" stroke="#2bd28b" stroke-width="10" />
+
+  <!-- Athlete Sprinting Silhouette -->
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="170" cy="80" r="11" fill="#FFFFFF" stroke="none" />
+    
+    <!-- Torso -->
+    <line x1="160" y1="100" x2="140" y2="140" stroke-width="12" />
+    
+    <!-- Right Arm (Forward) -->
+    <path d="M 160 100 L 180 115 L 170 140" stroke-width="10" fill="none" />
+    
+    <!-- Left Arm (Backward) -->
+    <path d="M 160 100 L 135 95 L 145 70" stroke-width="10" fill="none" />
+    
+    <!-- Right Leg (Forward) -->
+    <path d="M 140 140 L 170 145 L 160 180" stroke-width="11" fill="none" />
+    
+    <!-- Left Leg (Backward) -->
+    <path d="M 140 140 L 110 155 L 85 145" stroke-width="11" fill="none" />
+  </g>
+
+  <!-- Motion Lines -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M 90 95 Q 110 100 135 100" />
+    <path d="M 80 120 Q 100 125 125 125" />
+    <path d="M 75 145 Q 85 150 105 150" />
+  </g>
+
+  <!-- Text -->
+  <text x="260" y="162" font-family="'Montserrat', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="110" font-weight="600" fill="#FFFFFF" letter-spacing="1">Hustle</text>
+</svg>
